@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-    int hr,min;
+    int h,m;
     printf("enter the value");
-    scanf("%d",&min);
-    hr=min/60;
-    min=min%60;
-    printf("%d %d",hr,min);
+    scanf("%d",&m);
+    h=m/60;
+    m=m%60;
+    printf("%d %d",h,m);
     getch();
 }
