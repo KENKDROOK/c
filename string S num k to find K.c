@@ -1,14 +1,14 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-    char s[20];
+    char str[20];
     int n,i;
-    scanf("%s",s);
+    scanf("%s",str);
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        printf("%c",s[i]);
+        printf("%c",str[i]);
     }
     return 0;
 }
