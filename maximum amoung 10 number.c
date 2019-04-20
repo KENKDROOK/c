@@ -1,19 +1,19 @@
 #include<stdio.h>
 void main()
 {
-int a[50],i,temp;
+int a[50],i,t;
 printf("enter the number");
 for(i=1;i<=10;i++)
 {
 scanf("%d",&a[i]);
 }
-temp=a[1];
+t=a[1];
 for(i=1;i<=10;i++)
 {
-if(temp<a[i])
+if(t<a[i])
 {
-temp=a[i];
+t=a[i];
 }
 }
-printf("%d",temp);
+printf("%d",t);
 }
