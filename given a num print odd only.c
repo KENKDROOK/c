@@ -1,25 +1,24 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
-    int n,q,p=1,t;
-    scanf("%d",&n);
-    t=n;
+    int k,q,p=1,t;
+    scanf("%d",&k);
+    t=k;
     while(t>0)
     {
         t=t/10;
         p=p*10;
     }
     p=p/10;
-        while(n>0)
+        while(k>0)
         {
-            q=n/p;
+            q=k/p;
             if(q%2!=0)
             {
                 printf("%d ",q);
             }
-            n=n%p;
+            k=k%p;
             p=p/10;
         }
-    
-return 0;
 }
