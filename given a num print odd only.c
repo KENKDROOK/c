@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
     int n,q,p=1,t;
