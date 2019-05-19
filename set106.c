@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-     int a,b,c,n,i;
+     int p,o,c,n,i;
      int sum = 0;
-     scanf("%d", &a);
-     scanf("%d", &b);
+     scanf("%d", &p);
+     scanf("%d", &o);
      scanf("%d", &c);
-     n = a + (c - 1) * b;
-     for(i=a;i<=n;i=i+b)
+     n = p + (c - 1) * o;
+     for(i=p;i<=n;i=i+o)
      {
              sum=sum+i;
 
