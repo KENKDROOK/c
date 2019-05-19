@@ -1,31 +1,31 @@
 #include<stdio.h>
 int main()
 {
-    char a[100];
+    char s[100];
     int i;
-    gets(a);
-    for(i=0;a[i]!='\0';i++)
+    gets(s);
+    for(i=0;s[i]!='\0';i++)
     {
-        if(a[0]>='a' && a[0]<='z')
+        if(s[0]>='a' && s[0]<='z')
         {
-            a[0]=a[0]-32;
+            s[0]=s[0]-32;
         }
         else
         {
-            a[0]=a[0];
+            s[0]=s[0];
         }
-        if(a[i]==' ')
+        if(s[i]==' ')
         {
-            if(a[i+1]>='a' && a[i+1]<='z')
+            if(s[i+1]>='a' && s[i+1]<='z')
         {
-            a[i+1]=a[i+1]-32;
+            s[i+1]=s[i+1]-32;
         }
         else
         {
-            a[i+1]=a[i+1];
+            s[i+1]=s[i+1];
         }
         } 
     }
-    puts(a);
+    puts(s);
     return 0;
 }
