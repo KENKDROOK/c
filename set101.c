@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int l,h,b,a,v;
+    int l,h,b,k,p;
     scanf("%d %d %d",&l,&b,&h);
-    a=(l*b*h);
-    v=(2*l*b)+(2*b*h)+(2*h*l);
-    printf("%d\n%d",v,a);
+    k=(l*b*h);
+    p=(2*l*b)+(2*b*h)+(2*h*l);
+    printf("%d\n%d",p,k);
     return 0;
 }
